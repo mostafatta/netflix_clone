@@ -36,3 +36,13 @@
     font-weight: 500;
     cursor: pointer;
 }
+@media (max-width:800px) {
+    .footer-icon img{
+        width: 25px;
+    }
+    .footer-icon ul{
+        grid-template-columns: auto auto;
+        gap:8px;
+        font-size: 14px;
+    }
+}
